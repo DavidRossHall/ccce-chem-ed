@@ -19,10 +19,28 @@ h1, h2, h3, h4 { font-family: 'IBM Plex Sans'; }
 }
 
 .inverse {
-  background-color: #23373B;
+  background-color: #0A214F;
   text-shadow: none;
 }
 
+.inverse-title {
+  background-color: #492515;
+  text-shadow: none;
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  padding: 10px 30px;
+  
+}
+
+.inverse-title h1, .inverse-title h2, .inverse-title h3, .inverse-title h4 {
+  color: #F7F9F7;
+}
+
+.inverse-title h4 {
+  color: #F7F9F7;
+  padding-bottom: 10px;
+}
 
 h1 {
   font-weight: normal;
@@ -258,6 +276,13 @@ h2, h3, h4 {
   transform: translate(-50%, -50%);
 }
 
+.center-vertical {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 
 /* --- Citations stuff --- */
 

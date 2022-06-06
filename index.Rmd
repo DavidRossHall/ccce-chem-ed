@@ -25,44 +25,49 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, error = FA
 
 ---
 count: false
-background-image: url(images/1963_LashMiller.jpg)
+background-image: url(images/1948_medStudentOrgLab.jpg)
 background-position: center
 background-size: cover
-
-## Title Goes here. 
-### **David Hall** and folks. 
-#### Dept. of Chemistry Univeristy of Toronto.
+.inverse-title[
+## The Numbers, What Do They Mean‽ </br>Incorporating Data-Science Into Undergraduate Laboratories
+### **David Hall**, Hui Peng, and Jessica D'eon 
+#### Dept. of Chemistry Univeristy of Toronto.</br>
+]
 
 ???
 
-Hashtag equates to different text settings in css. 
-- '#' = h1
-- '##' = h2, use this for average slide title***
-- '###' = h3
-
-background-image: url(images/1963_LashMiller.jpg)
-background-position: center
-background-size: cover
+- Image from UofT Org Lab, 1948. From Uoft Archives 
 ---
 
-count: false
-class: title-slide
 
-# Title goes here. 
-## Subtitle Goes here. 
-### **David Hall** and folks. 
-#### Dept. of Chemistry Univeristy of Toronto.
+## Whether we like it or not, we are living in an age of data;</br> chemistry is no exception. 
 
-???
+.pull-left[
 
-Hashtag equates to different text settings in css. 
-- '#' = h1
-- '##' = h2, use this for average slide title***
-- '###' = h3
+```{r, out.width="400px"}
+knitr::include_graphics(path= "images/1971_envStudies_3.jpg")
+```
 
-background-image: url(images/1963_LashMiller.jpg)
-background-position: center
-background-size: cover
+]
+
+
+--
+
+.pull-right[
+
+```{r, out.width="400px"}
+knitr::include_graphics(path= "images/1971_envStudies_3.jpg")
+```
+
+
+]
+
+---
+
+
+---
+
+
 ---
 
 ## Slide should have a succinct topic sentence which spans no longer than two lines and contains approx. 20 words
