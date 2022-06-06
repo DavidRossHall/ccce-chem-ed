@@ -101,6 +101,16 @@ This is centered content.
 
 ---
 
+## Remember to use Github pages to easily share the presentation, note repo must be public. 
+
+```r
+# Point to correct repo branch. 
+usethis::use_github_pages(branch = "main")
+
+```
+
+---
+
 ## For more info, check out the following: 
 
 - [*Meet xaringang* by Alison Hill](https://arm.rbind.io/slides/xaringan.html)
