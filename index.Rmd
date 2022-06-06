@@ -42,30 +42,42 @@ background-size: cover
 
 ## Whether we like it or not, we are living in an age of data;</br> chemistry is no exception. 
 
-.pull-left[
 
-```{r, out.width="400px"}
+
+```{r, out.width="800px", fig.align='center'}
 knitr::include_graphics(path= "images/1971_envStudies_3.jpg")
 ```
 
-]
+.bottomright[
 
-
---
-
-.pull-right[
-
-```{r, out.width="400px"}
-knitr::include_graphics(path= "images/1971_envStudies_3.jpg")
-```
-
+UofT Photo </br> Archives
 
 ]
 
 ---
 
+## Whether we like it or not, we are living in an age of data;</br> chemistry is no exception. 
+
+```{r, out.width="900px", fig.align='center'}
+knitr::include_graphics(path = "images/burgetEtAl-Nature-2020.gif")
+```
+
+.bottomright[
+
+Burger et al.</br> <i> Nature </i> (2020)
+
+]
 
 ---
+
+## Undergraduate Labs haven't adjusted for this change 
+
+```{r, out.height="500px", fig.align='center'}
+knitr::include_graphics(path = "images/1963_undergradChemLab.jpg")
+```
+
+---
+
 
 
 ---
