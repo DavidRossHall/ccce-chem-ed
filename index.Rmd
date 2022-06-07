@@ -3,7 +3,7 @@ title: "ToxicoProteomics Atlast of PFAS Toxicity "
 output: 
     xaringan::moon_reader:
       seal: FALSE
-      css: [ "mod-metropolis.css", "font.css"]
+      css: [ default, "mod-metropolis.css", "font.css"]
       nature:
         ratio: '16:9'
 ---
@@ -129,6 +129,32 @@ Wickham &</br> Grolemund (2016)
 
 ## We decided to explicitly introduce data-science into undergraduate laboraties both with *Excel* and programming (*R*)
 
+
+---
+
+class: center, middle
+count: false
+background-image: url(images/1968_uoftComputerLab.jpg)
+background-position: center
+background-size: cover
+
+.inverse[
+# R for Upper Years
+]
+---
+
+## Problem with CHM410 and increase in data
+
+- need to come up with a good example of this problems... 
+
+
+---
+
+
+## Decided to introduce R and wrote *R4EnvChem*
+
+-- screenshot of the book I suppose. 
+
 ---
 
 ## Easy interactive widgets greatly expand student independance in data analysis 
@@ -185,6 +211,53 @@ ggplotly(p)
 ```
 ]
 
---- 
+???
 
+- This snippet replaces a lot of commercial software...
+
+
+
+---
+
+## A little bit of R can greatly expand data exploration
+
+.pull-left[
+
+```{r, out.width="600px"}
+
+knitr::include_graphics(path = "images/airplot.png")
+
+```
+
+]
+
+--
+
+.pull-right[
+```{r, out.width="600px"}
+
+knitr::include_graphics(path = "images/airmap.png")
+
+```
+
+]
+
+.bottomleft[
+Chapter 18 </br> <i> R4EnvChem</i>
+
+]
+
+???
+
+- Air stream sensors collect conitnuous data every minute
+- Left plot approximates excel analysis
+- Right plot is R and displays dimensionailty of data
+
+---
+
+## Conclusion & Future Directions
+
+---
+
+## Questions 
 
