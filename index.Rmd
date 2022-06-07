@@ -25,7 +25,7 @@ library(plotly)
     Titatium Yellow #F0E100
     Persian Green #1B998B
 -->
-
+*this slide intentionally left blank*
 ---
 count: false
 background-image: url(images/1948_medStudentOrgLab.jpg)
@@ -42,20 +42,22 @@ background-size: cover
 - Image from UofT Med School Lab, 1948. From Uoft Archives 
 ---
 
-## Undergraduate laboratories  are supposed to give students a deeper understanding of the scientific process 
+## Undergraduate laboratories  are supposed to give students a deeper understanding of the scientific process by reflecting scientific research
+
+.pull-left[
 
 ```{r, out.height="500px", fig.align='center'}
 knitr::include_graphics(path = "images/1963_undergradChemLab.jpg")
 ```
-
----
-
-## To provide this understanding, labs must reflect </br> the reality of scientific research
+]
 
 
+--
+.pull-right[
 ```{r, out.width="800px", fig.align='center'}
 knitr::include_graphics(path= "images/1971_envStudies_3.jpg")
 ```
+]
 
 .bottomright[
 
@@ -71,9 +73,27 @@ UofT Photo </br> Archives
 
 ## Whether we like it or not, we are living in the age of data;</br> chemistry is no exception. 
 
+
+.pull-left[
+
+```{r, out.height="400px", fig.align='center'}
+knitr::include_graphics(path = "images/2015-undergradLab.jpeg")
+```
+]
+
+.bottomleft[
+Dept. of Chem. </br> UofT
+]
+
+--
+
+.pull-right[
+
 ```{r, out.width="900px", fig.align='center'}
 knitr::include_graphics(path = "images/burgetEtAl-Nature-2020.gif")
 ```
+
+]
 
 .bottomright[
 
@@ -87,26 +107,11 @@ Burger et al. </br><i> Nature </i>  (2020)
 
 ---
 
-##  Yet undergraduate labs often fail to reflect present and *future* reality 
-
-```{r, out.height="500px", fig.align='center'}
-knitr::include_graphics(path = "images/2015-undergradLab.jpeg")
-```
-
-.bottomright[
-Dept. of Chem. </br> UofT
-]
-
-
----
-
 ## The fundamentals are as important as ever...
-
-- going to remake this  figure for undergrad labs: pre-lab -> prep -> (experimment <-> observe <-> document <->) -> Communicate 
 
 ```{r fig.align='center', out.width='900px'}
 
-knitr::include_graphics(path = "images/wickhamDataSci.png")
+knitr::include_graphics(path = "images/chemLab.png")
 
 ```
 ---
