@@ -284,6 +284,15 @@ h2, h3, h4 {
   transform: translate(-50%, -50%);
 }
 
+.pull-left {
+  float: left;
+  width: 47%;
+}
+.pull-right {
+  float: right;
+  width: 47%;
+}
+
 /* --- Citations stuff --- */
 
 .bottomright{

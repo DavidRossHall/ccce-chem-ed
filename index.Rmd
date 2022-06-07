@@ -3,7 +3,7 @@ title: "ToxicoProteomics Atlast of PFAS Toxicity "
 output: 
     xaringan::moon_reader:
       seal: FALSE
-      css: ["mod-metropolis.css", "font.css"]
+      css: [ "mod-metropolis.css", "font.css"]
       nature:
         ratio: '16:9'
 ---
@@ -12,6 +12,9 @@ count: false
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, error = FALSE)
+
+library(tidyverse)
+library(plotly)
 ```
 
 <!-- 
@@ -36,12 +39,18 @@ background-size: cover
 
 ???
 
-- Image from UofT Org Lab, 1948. From Uoft Archives 
+- Image from UofT Med School Lab, 1948. From Uoft Archives 
 ---
 
+## Undergraduate laboratories  are supposed to give students a deeper understanding of the scientific process 
 
-## Whether we like it or not, we are living in an age of data;</br> chemistry is no exception. 
+```{r, out.height="500px", fig.align='center'}
+knitr::include_graphics(path = "images/1963_undergradChemLab.jpg")
+```
 
+---
+
+## To provide this understanding, labs must reflect </br> the reality of scientific research
 
 
 ```{r, out.width="800px", fig.align='center'}
@@ -54,9 +63,13 @@ UofT Photo </br> Archives
 
 ]
 
+
+???
+
+- Could take Orgo chem  from previous lab and would survive in Anal. Chem. Lab 
 ---
 
-## Whether we like it or not, we are living in an age of data;</br> chemistry is no exception. 
+## Whether we like it or not, we are living in the age of data;</br> chemistry is no exception. 
 
 ```{r, out.width="900px", fig.align='center'}
 knitr::include_graphics(path = "images/burgetEtAl-Nature-2020.gif")
@@ -64,73 +77,114 @@ knitr::include_graphics(path = "images/burgetEtAl-Nature-2020.gif")
 
 .bottomright[
 
-Burger et al.</br> <i> Nature </i> (2020)
+Burger et al. </br><i> Nature </i>  (2020)
 
 ]
 
+???
+
+- Org chem wouldn't survive with this robot...
+
 ---
 
-## Undergraduate Labs haven't adjusted for this change 
+##  Yet undergraduate labs often fail to reflect present and *future* reality 
 
 ```{r, out.height="500px", fig.align='center'}
-knitr::include_graphics(path = "images/1963_undergradChemLab.jpg")
+knitr::include_graphics(path = "images/2015-undergradLab.jpeg")
 ```
 
----
-
-
-
----
-
-## Slide should have a succinct topic sentence which spans no longer than two lines and contains approx. 20 words
-
-```{r fig.align='center', out.width = "900px"}
-
-knitr::include_graphics(path = "images/1963_LashMiller.jpg")
-
-```
-
----
-
-class: center, middle
-
-# For centered text use 'h1' level
-
-This is centered content.  
-
----
-
-## Do not use bullet points, but this is how to do it (didn't make pretty). 
-
-
-.left[
-- text goes here
-- this is a list
-- And these are bullet points
-] 
-
-.right[
-- But don't use bullet points
+.bottomright[
+Dept. of Chem. </br> UofT
 ]
 
-.bottomright[Here's some citations </br> Hall et al. <i> ES&T </i> (2020)</br> Peng et al. <i> ES&T </i> 2016]
-
 
 ---
 
-## Remember to use Github pages to easily share the presentation, note repo must be public. 
+## The fundamentals are as important as ever...
 
-```r
-# Point to correct repo branch. 
-usethis::use_github_pages(branch = "main")
+- going to remake this  figure for undergrad labs: pre-lab -> prep -> (experimment <-> observe <-> document <->) -> Communicate 
+
+```{r fig.align='center', out.width='900px'}
+
+knitr::include_graphics(path = "images/wickhamDataSci.png")
+
+```
+---
+
+## ... we just need to introduce similar fundamentals for data science
+
+```{r fig.align='center', out.width='900px'}
+
+knitr::include_graphics(path = "images/wickhamDataSci.png")
 
 ```
 
+.bottomright[
+
+Wickham &</br> Grolemund (2016)
+
+]
+
 ---
 
-## For more info, check out the following: 
+## We decided to explicitly introduce data-science into undergraduate laboraties both with *Excel* and programming (*R*)
 
-- [*Meet xaringang* by Alison Hill](https://arm.rbind.io/slides/xaringan.html)
+---
 
-- [Chapter 7: xaringang Presentations of *R Markdown: The Definitive Guide* by Yihui Xie et al. ](https://bookdown.org/yihui/rmarkdown/xaringan.html)
+## Easy interactive widgets greatly expand student independance in data analysis 
+
+.pull-left[
+
+```{r plot-last, echo = TRUE, eval = FALSE}
+
+# Import & Tidy data
+
+atr <- read_csv("data/atr.csv") %>%
+  pivot_longer(cols = 2:4, 
+               names_to = "plastic",
+               values_to = "intensity")
+
+# Create plot
+
+p <- ggplot(data = atr,
+            aes(x = wavenumber, 
+                y = intensity, 
+                colour = plastic)) +
+  geom_point()
+
+
+# interactive plot
+
+ggplotly(p)
+
+```
+]
+
+.pull-right[
+```{r echo = FALSE}
+
+# Import & Tidy data
+
+atr <- read_csv("data/atr.csv") %>%
+  pivot_longer(cols = 2:4, 
+               names_to = "plastic",
+               values_to = "intensity")
+
+# Create plot
+
+p <- ggplot(data = atr,
+            aes(x = wavenumber, 
+                y = intensity, 
+                colour = plastic)) +
+  geom_point(size = 1)
+
+
+# interactive plot
+
+ggplotly(p)
+```
+]
+
+--- 
+
 
