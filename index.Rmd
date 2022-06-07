@@ -155,21 +155,24 @@ UofT Photo Archives
 
 ---
 
-## Air Quality Dataset
-
-- Map of NAPS station & link to government website. 
-
----
-
 ## Automated dataset generation and answer sheet
 
-- Will draw up a quick scheme for this to show the workflow
+```{r, out.width="800px", fig.align='center'}
+knitr::include_graphics(path= "images/lab1Scheme.png")
+```
 
 ---
 
 ## Example of students working through air quality data 
 
-- Will be another quick gif of me making air quality plot 
+```{r xaringanExtra-freezeframe, echo=FALSE}
+xaringanExtra::use_freezeframe()
+```
+
+
+```{r, out.width="1200px", fig.align='center'}
+knitr::include_graphics(path= "images/lab1Work.gif")
+```
 
 ---
 
