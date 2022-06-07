@@ -149,13 +149,34 @@ UofT Photo Archives
 
 ---
 
-## Examples of Data analysis in intro chem 
 
--- it'll be a gif of me making a kinetics plot or something
+## Titrations
+
+```{r, out.width="800px", fig.align='center'}
+knitr::include_graphics(path= "images/titration.png")
+```
+
+???
+
+- Already included Excel in intro chem, i.e. Titrations
 
 ---
 
-## Automated dataset generation and answer sheet
+## Calorimetry
+
+```{r, out.width="800px", fig.align='center'}
+knitr::include_graphics(path= "images/CHM135_cal2.png")
+```
+
+???
+
+- And Calorimetry
+- Problem is inconsistency implementation and introduction
+- No comprehensive lab showcasing excel 
+
+---
+
+## Developed new lab using existing real-world data and automated intermediate work with R
 
 ```{r, out.width="800px", fig.align='center'}
 knitr::include_graphics(path= "images/lab1Scheme.png")
@@ -163,7 +184,7 @@ knitr::include_graphics(path= "images/lab1Scheme.png")
 
 ---
 
-## Example of students working through air quality data 
+## 7-Day subset analysis explicitly introduces fundamental Excel operations to students
 
 ```{r xaringanExtra-freezeframe, echo=FALSE}
 xaringanExtra::use_freezeframe()
@@ -176,12 +197,17 @@ knitr::include_graphics(path= "images/lab1Work.gif")
 
 ---
 
-## Air Quality Lab expands scope of lab 1 while minimizing additional rote Excel operations
+## Air Quality App expands scope of lab while minimizing additional rote Excel operations
 
 ```{r, out.width="1200px", fig.align='center'}
 knitr::include_graphics(path= "images/visible-app.png")
 ```
 
+???
+
+- > 3600 students have done this lab
+- Student's appreciate data science
+- "It's actually useful outside of this course, unlike titrations." - Survey Respondant
 
 ---
 
@@ -199,25 +225,47 @@ background-size: cover
 UofT Photo Archives
 
 ]
+
+???
+
+- Switching to implementation of Data-Science for upper years
+- Inspired by the worldload of CHM410 labs
+
 ---
 
-## Problem with CHM410 and increase in data
+class: center, middle
+background-image: url(images/fieldtripmap.png)
+background-position: center
+background-size: contain
 
-- need to come up with a good example of this problems... 
+???
 
+- Students pool samples together and get a lot of data
+- Numerous call curves leads to rote excel work
+- Excel workflow doesn't scale as pool of analytes increases
+- Excel hides errors (see numbers not operations...)
+- Limited statistical test and visualizations
 
 ---
 
 
-## Decided to introduce R and wrote *R4EnvChem*
+## In response to demands from students and needs from courses we wrote *R4EnvChem*, a course agnotics data analysis textbook
 
 ```{r, out.width="1000px", fig.align='center'}
 knitr::include_graphics(path= "images/r4envchem_splash.png")
 ```
 
+???
+
+- Central, course-agnostic textbook 
+- Information can be used by any prof/TA/student
+- Common workflows and functions means transferability between courses
+- Scores of options at fingertips once established in R
+- This presentation made with R...
+
 ---
 
-## Easy interactive widgets greatly expand student independance in data analysis 
+## Accesible interactive widgets greatly expand student independance in data analysis 
 
 .pull-left[
 
@@ -274,12 +322,13 @@ ggplotly(p)
 ???
 
 - This snippet replaces a lot of commercial software...
+- Students can spend more time thinking about their data then handling it...
 
 
 
 ---
 
-## A little bit of R can greatly expand data exploration
+## A little bit of R can greatly expand data visulizations
 
 .pull-left[
 
