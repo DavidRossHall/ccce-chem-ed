@@ -127,19 +127,66 @@ Wickham &</br> Grolemund (2016)
 
 ---
 
-## We decided to explicitly introduce data-science into undergraduate laboraties both with *Excel* and programming (*R*)
+class: center, middle
+count: false
+background-image: url(images/1958_UofTaerospace.png)
+background-position: center
+background-size: cover
 
+.inverse[
+# Excel into Intro Chem
+]
+
+.bottomright[
+UofT Photo Archives
+
+]
+
+---
+
+## Examples of Data analysis in intro chem 
+
+-- it'll be a gif of me making a kinetics plot or something
+
+---
+
+## Air Quality Dataset
+
+- Map of NAPS station & link to government website. 
+
+---
+
+## Automated dataset generation and answer sheet
+
+- Will draw up a quick scheme for this to show the workflow
+
+---
+
+## Example of students working through air quality data 
+
+- Will be another quick gif of me making air quality plot 
+
+---
+
+## Air Quality App
+
+- Just a quick screenshot to show app
 
 ---
 
 class: center, middle
 count: false
-background-image: url(images/1968_uoftComputerLab.jpg)
+background-image: url(images/1968_UofTPCLab.jpg)
 background-position: center
 background-size: cover
 
 .inverse[
 # R for Upper Years
+]
+
+.inverse-bottomright[
+UofT Photo Archives
+
 ]
 ---
 
@@ -257,7 +304,12 @@ Chapter 18 </br> <i> R4EnvChem</i>
 
 ## Conclusion & Future Directions
 
+- Refine introduction of R into upper year courses
+- Interatively build upon Excel skills across intro chem course. 
+
 ---
 
 ## Questions 
+
+- Links to all of the github projects and stuff, app, and these slides. 
 
