@@ -116,7 +116,7 @@ knitr::include_graphics(path = "images/chemLab.png")
 ```
 ---
 
-## ... we just need to introduce similar fundamentals for data science
+## ... we just need to introduce similar fundamentals for data analysis
 
 ```{r fig.align='center', out.width='900px'}
 
@@ -146,6 +146,10 @@ background-size: cover
 UofT Photo Archives
 
 ]
+
+???
+
+- **REMEMBER** intro chem is mostly life-science kids (i.e. not chemists!)
 
 ---
 
@@ -197,7 +201,7 @@ knitr::include_graphics(path= "images/lab1Work.gif")
 
 ---
 
-## Air Quality App expands scope of lab while minimizing additional rote Excel operations
+### Air Quality App expands scope of lab while minimizing additional rote Excel operations
 
 ```{r, out.width="1200px", fig.align='center'}
 knitr::include_graphics(path= "images/visible-app.png")
@@ -208,6 +212,16 @@ knitr::include_graphics(path= "images/visible-app.png")
 - > 3600 students have done this lab
 - Student's appreciate data science
 - "It's actually useful outside of this course, unlike titrations." - Survey Respondant
+
+---
+
+class: center, middle
+
+### “I thought Lab 1[Air Quality Lab] was really effective. **I honestly feel like the excel and data analysis skills I developed were more useful to me as a science student than doing the actual wet lab work**, like titrations. Obviously that stuff is important too, but it can be learned easily and isn't applicable in many other classes beyond chem. **Using excel, reading trendlines, and working through methodical steps to solve an end problem are applicable skills I can use in any class.**” – CHM135, Apr. 2021
+
+???
+
+- Another good quote: "The Excel component of Lab1 also helped me with an assignment of MAT135! Thanks a million" – Nov. 2021.
 
 ---
 
@@ -229,7 +243,8 @@ UofT Photo Archives
 ???
 
 - Switching to implementation of Data-Science for upper years
-- Inspired by the worldload of CHM410 labs
+- Inspired by the worldload of CHM410 labs 
+- CHM410 is mix of 4th years and 1st year Grads
 
 ---
 
@@ -249,7 +264,7 @@ background-size: contain
 ---
 
 
-## In response to demands from students and needs from courses we wrote *R4EnvChem*, a course agnotics data analysis textbook
+## In response to demands from students and needs from courses we wrote *R4EnvChem*, a course agnostic data analysis textbook
 
 ```{r, out.width="1000px", fig.align='center'}
 knitr::include_graphics(path= "images/r4envchem_splash.png")
@@ -265,7 +280,7 @@ knitr::include_graphics(path= "images/r4envchem_splash.png")
 
 ---
 
-## Accesible interactive widgets greatly expand student independance in data analysis 
+## Accessible interactive widgets expand student's independent data analysis 
 
 .pull-left[
 
@@ -328,7 +343,7 @@ ggplotly(p)
 
 ---
 
-## A little bit of R can greatly expand data visulizations
+## A little bit of R can expand data visualizations
 
 .pull-left[
 
@@ -361,6 +376,12 @@ Chapter 18 </br> <i> R4EnvChem</i>
 - Air stream sensors collect conitnuous data every minute
 - Left plot approximates excel analysis
 - Right plot is R and displays dimensionailty of data
+
+---
+
+class: center, middle
+
+### "I think **R coding helped streamline** a lot of the data analysis parts and it was really helpful" - CHM410, Fall 2021</br> </br>"...I'm wondering if the chemistry department might **consider having students take an R programming course** so that they don't have to learn R on the fly?" - CHM410, Fall 2021</br> </br>"My first pull request! **WooHoo!**" - J. D'eon</br> </br>"**...it was that easy**...why didn't I learn this sooner" - Anonymous 5th year PhD Colleague
 
 ---
 
