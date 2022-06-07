@@ -1,5 +1,5 @@
 ---
-title: "ToxicoProteomics Atlast of PFAS Toxicity "
+title: "CCCE Calgary Chem Ed. Talk  "
 output: 
     xaringan::moon_reader:
       seal: FALSE
@@ -176,7 +176,7 @@ knitr::include_graphics(path= "images/lab1Work.gif")
 
 ---
 
-## Air Quality App
+## Air Quality Lab expands scope of lab 1 while minimizing additional rote Excel operations
 
 ```{r, out.width="1200px", fig.align='center'}
 knitr::include_graphics(path= "images/visible-app.png")
@@ -211,7 +211,9 @@ UofT Photo Archives
 
 ## Decided to introduce R and wrote *R4EnvChem*
 
--- screenshot of the book I suppose. 
+```{r, out.width="1000px", fig.align='center'}
+knitr::include_graphics(path= "images/r4envchem_splash.png")
+```
 
 ---
 
@@ -300,7 +302,7 @@ knitr::include_graphics(path = "images/airmap.png")
 
 ]
 
-.bottomleft[
+.bottomright[
 Chapter 18 </br> <i> R4EnvChem</i>
 
 ]
@@ -313,14 +315,91 @@ Chapter 18 </br> <i> R4EnvChem</i>
 
 ---
 
-## Conclusion & Future Directions
+## Conclusion, Future Directions, and Acknowledgements
+
+.pull-left[
+
+**Conclusions**
+
+- Student's appreciate Data Science
+- Scores of accessible tools and ressources for research and teaching
+- It's *free*
+
+**Future Work**
 
 - Refine introduction of R into upper year courses
 - Interatively build upon Excel skills across intro chem course. 
+]
+
+
+
+
+.pull-right[
+
+*R4EnvChem* authors:
+
+- [Steven Kutarna](https://sites.chem.utoronto.ca/penglab/content/people)
+- [Kristen Yeh](https://www.abbattgroup.ca/members/)
+- [Hui Peng](https://sites.chem.utoronto.ca/penglab/content/people)
+- [Jessica' Deon](https://www.chemistry.utoronto.ca/people/directories/all-faculty/jessica-deon)
+
+*R4EnvChem* contributors:
+
+- [Jeremy Gauthier](https://sites.chem.utoronto.ca/chemistry/staff/MABURY/people.html)
+- [Stephanie Schneider](https://www.abbattgroup.ca/members/)
+- [Andrew Folkerson](https://sites.chem.utoronto.ca/chemistry/staff/MABURY/people.html)
+- [Mark Panas](https://sites.chem.utoronto.ca/murphygroup/content/mark-panas)
+
+
+*CHM135: Excel* contributors:
+
+- [Andrew Folkerson](https://sites.chem.utoronto.ca/chemistry/staff/MABURY/people.html)
+- [David Liu (Comp Sci)](https://www.cs.toronto.edu/~david/)
+- [Jessica D'eon](https://www.chemistry.utoronto.ca/people/directories/all-faculty/jessica-deon)
+
+*CHM135: Excel* feedback:
+
+- [Kris Quinlan](https://www.chemistry.utoronto.ca/people/directories/all-faculty/kristine-quinlan)
+- [Andy Dicks](https://www.chemistry.utoronto.ca/people/directories/all-faculty/andrew-p-dicks)
+- [Scott Browning](https://www.chemistry.utoronto.ca/people/directories/all-faculty/scott-browning)
+
+]
 
 ---
 
-## Questions 
+## Questions? 
 
-- Links to all of the github projects and stuff, app, and these slides. 
+.pull-left[
 
+All code and projects discussed in this talk (including this presentation) are available on GitHub: 
+
+[**github.com/UofTChem-Teaching**](https://github.com/UofTChem-Teaching)
+
+
+*R4EnvChem* webbook: 
+
+[uoftchem-teaching.github.io/R4EnvChem/](https://uoftchem-teaching.github.io/R4EnvChem/)
+
+
+]
+
+.pull-right[
+
+```{r, out.width="400px"}
+
+knitr::include_graphics(path = "images/uoftrepo.png")
+
+```
+
+
+]
+
+---
+
+## SI: Student Feedback from lab 1
+
+```{r, out.width="800px"}
+
+knitr::include_graphics(path = "images/lab1-survey.png")
+
+```
