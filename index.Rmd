@@ -178,7 +178,10 @@ knitr::include_graphics(path= "images/lab1Work.gif")
 
 ## Air Quality App
 
-- Just a quick screenshot to show app
+```{r, out.width="1200px", fig.align='center'}
+knitr::include_graphics(path= "images/visible-app.png")
+```
+
 
 ---
 
